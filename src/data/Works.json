@@ -1,0 +1,34 @@
+{
+  "experience": [
+    {
+      "title": "Software Engineer I",
+      "sub_title": "FIS",
+      "start_date": "01/2022",
+      "end_date": "Current",
+      "descriptions": [],
+      "github": "",
+      "site": "",
+      "images": [
+        "https://michaelnavs-readme.s3.us-east-2.amazonaws.com/fis.png"
+      ],
+      "tags": []
+    },
+    {
+      "title": "Undergraduate Research Assistant",
+      "sub_title": "Auburn University at Montgomery",
+      "start_date": "01/2021",
+      "end_date": "12/2021",
+      "descriptions": [
+        "NSF funded research project using Machine Learning and Hyperspectral Images to classify types of clouds in the sky.",
+        "Utilized Scikit-Learn to create models to estimate turbidity values from RGB cloud Images.",
+        "Wrote multiple Python image processing scripts to create datasets to evaluate ML models mentioned above."
+      ],
+      "github": "",
+      "site": "",
+      "images": [
+        "https://michaelnavs-readme.s3.us-east-2.amazonaws.com/nsf.png"
+      ],
+      "tags": ["Python", "Pandas", "Numpy", "Matplotlib", "Scikit-Learn"]
+    }
+  ]
+}

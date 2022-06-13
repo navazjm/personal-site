@@ -1,0 +1,14 @@
+.not-found-page-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.not-found-page-container h1 {
+  color: var(--red);
+}

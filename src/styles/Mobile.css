@@ -1,0 +1,132 @@
+@media only screen and (max-width: 1920px) {
+  :root {
+    --max-page-width: 60%;
+  }
+}
+
+@media only screen and (max-width: 1500px) {
+  :root {
+    --max-page-width: 90%;
+  }
+
+  .MuiDialog-paperWidthSm {
+    width: 90% !important;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  :root {
+    --max-page-width: 90%;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .home-heading-name {
+    font-size: 5rem;
+  }
+
+  .home-heading-role {
+    margin-top: -1rem;
+  }
+
+  .experience-item-page-container {
+    margin: 2rem auto;
+  }
+
+  .experience-items-container {
+    flex-direction: column;
+  }
+
+  .experience-item-container {
+    width: 60%;
+  }
+
+  .experience-item-modal-body {
+    flex-direction: column;
+  }
+
+  .blog-page-heading {
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+    gap: 3rem;
+  }
+
+  .blog-search-form {
+    width: 100%;
+  }
+
+  .blog-page-content-container {
+    flex-direction: column-reverse;
+  }
+
+  .blog-page-posts-container {
+    width: 100%;
+    margin-top: 3rem;
+  }
+
+  .blog-page-topics-container {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .home-heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 450px;
+  }
+
+  .home-heading-name {
+    font-size: 5rem;
+  }
+
+  .home-heading-role {
+    margin-top: 0;
+  }
+
+  .about-page-content {
+    flex-direction: column;
+    align-items: center;
+    gap: 5rem;
+  }
+
+  .about-page-profile-pic {
+    text-align: center;
+  }
+
+  .about-page-tech-container {
+    flex-direction: column;
+  }
+
+  .experience-item-container {
+    width: 80%;
+  }
+
+  .experience-item-modal-footer {
+    flex-direction: column-reverse;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .topbar-links-wrapper {
+    display: none;
+  }
+
+  .topbar-hamburger-menu {
+    display: initial;
+  }
+
+  .topbar-mobile-links-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .side-navbar-container {
+    display: none;
+  }
+
+  .experience-item-container {
+    width: 100%;
+  }
+}

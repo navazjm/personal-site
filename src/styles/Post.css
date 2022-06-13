@@ -1,0 +1,59 @@
+.post-page-heading-container h1 {
+  color: var(--cyan);
+}
+
+.post-page-heading-container h1::after {
+  background-color: var(--cyan);
+}
+
+.post-page-heading-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.post-page-back-arrow-btn {
+  color: var(--bg3);
+  font-size: 1.3rem;
+  transition: all 250ms ease-in;
+}
+
+.post-page-back-arrow-btn:hover,
+.post-page-back-arrow-btn:focus {
+  color: var(--fg);
+}
+
+.post-page-heading-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.post-page-created-at {
+  color: var(--yellow);
+}
+
+.post-page-content-container {
+  margin: 3rem 0;
+  line-height: 2rem;
+}
+
+.post-page-post-image {
+  max-width: 300px;
+  margin: 3rem auto 5rem;
+}
+
+.post-page-post-footer-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.post-page-topic {
+  padding: 0.5rem;
+  border-radius: 5px;
+  background-color: var(--bg3);
+  font-size: 0.8rem;
+}
