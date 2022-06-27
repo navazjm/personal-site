@@ -16,17 +16,17 @@ but also a platform for me to share my knowledge that I gain over the course of 
 
 My personal site contains 3 main pages:
 
-- Home page:
-  - Landing page section
-  - About me section to learn about me and what tools I use
-  - Work experience section
-  - Projects section: both personal projects and open source contributions
-- Blog page
-  - Displays a list of my recent articles
-  - Search bar to filter articles based on titles or topics
-  - Featured topics section to filter articles by clicking on a hot topic
-- Post page
-  - Displays an article that the user selects from the Blog page
+-   Home page:
+    -   Landing page section
+    -   About me section to learn about me and what tools I use
+    -   Work experience section
+    -   Projects section: both personal projects and open source contributions
+-   Blog page
+    -   Displays a list of my recent articles
+    -   Search bar to filter articles based on titles or topics
+    -   Featured topics section to filter articles by clicking on a hot topic
+-   Post page
+    -   Displays an article that the user selects from the Blog page
 
 I built my personal site using React and deployed using Heroku. I used 100% custom css to have
 complete creative control. The color theme is heavy inspired for my love for OneDark.

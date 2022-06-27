@@ -1,151 +1,151 @@
 .topbar-nav {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1rem;
-  position: fixed;
-  z-index: 5;
-  width: 100vw;
-  background-color: var(--bg0);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    position: fixed;
+    z-index: 5;
+    width: 100vw;
+    background-color: var(--bg0);
 }
 
 .topbar-logo-link {
-  opacity: 0.1;
+    opacity: 0.1;
 }
 
 .topbar-logo-link:hover,
 .topbar-logo-link:focus {
-  opacity: 1;
+    opacity: 1;
 }
 
 .topbar-logo {
-  width: 32px;
+    width: 32px;
 }
 
 .topbar-hamburger-menu {
-  display: none;
+    display: none;
 }
 
 .topbar-hamburger-menu-btn,
 .topbar-mobile-nav-close-btn {
-  background: none;
-  outline: none;
-  border: none;
-  color: var(--bg3);
-  font-size: 2rem;
+    background: none;
+    outline: none;
+    border: none;
+    color: var(--bg3);
+    font-size: 2rem;
 }
 
 .topbar-mobile-links-wrapper {
-  position: fixed;
-  right: -1000px;
-  top: 0;
-  display: none;
-  height: 100vh;
-  width: 100vw;
-  background-color: var(--bg1);
-  transition: right 300ms linear;
+    position: fixed;
+    right: -1000px;
+    top: 0;
+    display: none;
+    height: 100vh;
+    width: 100vw;
+    background-color: var(--bg1);
+    transition: right 300ms linear;
 }
 
 .topbar-mobile-logo-wrapper {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
 }
 
 .topbar-mobile-links-internal-wrapper {
-  display: flex;
-  flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
 
 .topbar-mobile-links-internal-wrapper a {
-  padding: 1rem;
+    padding: 1rem;
 }
 
 .topbar-mobile-links-external-wrapper {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  padding: 1rem;
-  gap: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    gap: 1rem;
 }
 
 .topbar-links-wrapper {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  gap: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
 }
 
 .topbar-mobile-links-external-wrapper a,
 .topbar-links-wrapper a {
-  height: 2rem;
-  width: 2rem;
-  background-color: var(--fg);
-  border-radius: 50%;
-  position: relative;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  opacity: 0.1;
+    height: 2rem;
+    width: 2rem;
+    background-color: var(--fg);
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.1;
 }
 
 .topbar-mobile-links-external-wrapper a span,
 .topbar-links-wrapper a span {
-  opacity: 1;
-  color: var(--bg3);
-  transition: all 250ms ease-in;
-  font-size: 1.2rem;
-  width: 1rem;
+    opacity: 1;
+    color: var(--bg3);
+    transition: all 250ms ease-in;
+    font-size: 1.2rem;
+    width: 1rem;
 }
 
 .topbar-mobile-links-external-wrapper a:focus,
 .topbar-links-wrapper a:hover,
 .topbar-links-wrapper a:focus {
-  opacity: 1;
-  background-color: var(--orange);
+    opacity: 1;
+    background-color: var(--orange);
 }
 
 .topbar-mobile-links-internal-wrapper a.active-link,
 .topbar-mobile-links-internal-wrapper a:focus {
-  background-color: var(--bg2);
+    background-color: var(--bg2);
 }
 
 .topbar-links-wrapper a.topbar-home-link:hover,
 .topbar-links-wrapper a.topbar-home-link:focus {
-  background-color: var(--green);
+    background-color: var(--green);
 }
 
 .topbar-mobile-links-internal-wrapper a.topbar-home-link.active-link {
-  color: var(--green);
+    color: var(--green);
 }
 
 .topbar-links-wrapper a.topbar-about-link:hover,
 .topbar-links-wrapper a.topbar-about-link:focus {
-  background-color: var(--red);
+    background-color: var(--red);
 }
 
 .topbar-links-wrapper a.topbar-work-link:hover,
 .topbar-links-wrapper a.topbar-work-link:focus {
-  background-color: var(--purple);
+    background-color: var(--purple);
 }
 
 .topbar-links-wrapper a.topbar-projects-link:hover,
 .topbar-links-wrapper a.topbar-projects-link:focus {
-  background-color: var(--blue);
+    background-color: var(--blue);
 }
 
 .topbar-links-wrapper a.topbar-blog-link:hover,
 .topbar-links-wrapper a.topbar-blog-link:focus {
-  background-color: var(--cyan);
+    background-color: var(--cyan);
 }
 
 .topbar-mobile-links-internal-wrapper a.topbar-blog-link.active-link,
 .topbar-mobile-links-internal-wrapper a.topbar-blog-link:focus {
-  color: var(--cyan);
+    color: var(--cyan);
 }
