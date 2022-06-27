@@ -1,55 +1,55 @@
 .home-container {
-  height: 100%;
-  position: relative;
-  margin: 0 auto;
+    height: 100%;
+    position: relative;
+    margin: 0 auto;
 }
 
 .home-heading {
-  position: absolute;
-  top: 20%;
-  height: 300px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+    position: absolute;
+    top: 20%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .home-heading-name {
-  font-size: 7rem;
-  font-family: Anton;
-  text-transform: uppercase;
-  letter-spacing: 0.25rem;
+    font-size: 7rem;
+    font-family: Anton;
+    text-transform: uppercase;
+    letter-spacing: 0.25rem;
 }
 
 .home-heading-role {
-  font-size: 2rem;
-  font-weight: 300;
-  font-style: italic;
-  color: var(--green);
-  margin-top: -2rem;
+    font-size: 2rem;
+    font-weight: 300;
+    font-style: italic;
+    color: var(--green);
+    margin-top: -2rem;
 }
 
 .home-action-buttons-wrapper {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
 }
 
 .home-action-button {
-  background-color: var(--bg0);
-  border: 1px solid var(--cyan);
-  border-radius: 5px;
-  padding: 1rem;
+    background-color: var(--bg0);
+    border: 1px solid var(--cyan);
+    border-radius: 5px;
+    padding: 1rem;
 }
 
 .home-view-work-button {
-  background-color: var(--cyan);
-  color: var(--bg3);
+    background-color: var(--cyan);
+    color: var(--bg3);
 }
 
 .home-action-button:hover,
 .home-action-button:focus {
-  background-color: var(--dark_cyan);
-  border-color: var(--dark_cyan);
-  color: var(--fg);
+    background-color: var(--dark_cyan);
+    border-color: var(--dark_cyan);
+    color: var(--fg);
 }
