@@ -28,8 +28,7 @@ My personal site contains 3 main pages:
 -   Post page
     -   Displays an article that the user selects from the Blog page
 
-I built my personal site using React and deployed using Heroku. I used 100% custom css to have
-complete creative control. The color theme is heavy inspired for my love for OneDark.
+I used 100% custom css to have complete creative control. The color theme is heavy inspired for my love for OneDark.
 
 ![demo](https://media.giphy.com/media/XUQUaXqMM0nROT54RR/giphy.gif)
 ![demo](https://media.giphy.com/media/OfUWl51KecSZTDyhXN/giphy.gif)
@@ -37,4 +36,4 @@ complete creative control. The color theme is heavy inspired for my love for One
 
 ## Contact
 
-Michael Navarro - [@tehmjn](https://twitter.com/tehmjn)
+Michael Navarro - [@navazjm](https://twitter.com/navazjm)
