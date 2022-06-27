@@ -28,7 +28,7 @@ My personal site contains 3 main pages:
 -   Post page
     -   Displays an article that the user selects from the Blog page
 
-I used 100% custom css to have complete creative control. The color theme is heavy inspired for my love for OneDark.
+I used 100% custom css to have complete creative control. The color theme is heavy inspired for my love for [Nordfox](https://github.com/EdenEast/nightfox.nvim).
 
 ![demo](https://media.giphy.com/media/XUQUaXqMM0nROT54RR/giphy.gif)
 ![demo](https://media.giphy.com/media/OfUWl51KecSZTDyhXN/giphy.gif)
