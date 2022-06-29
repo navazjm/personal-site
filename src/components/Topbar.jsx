@@ -2,7 +2,6 @@
 import React, { useRef } from "react";
 import PropTypes from "prop-types"; // ES6
 import { NavLink } from "react-router-dom";
-import mnLogo from "../images/logo.png";
 import "../styles/Topbar.css";
 
 export const Topbar = ({ currentRoutePath, setCurrentRoutePath }) => {
@@ -25,7 +24,7 @@ export const Topbar = ({ currentRoutePath, setCurrentRoutePath }) => {
             <div className="topbar-logo-wrapper">
                 <a href="/" className="topbar-logo-link">
                     <img
-                        src={mnLogo}
+                        src="/images/logo.png"
                         alt="michael navarro logo"
                         className="topbar-logo"
                     />
@@ -125,7 +124,7 @@ export const Topbar = ({ currentRoutePath, setCurrentRoutePath }) => {
                 <div className="topbar-mobile-logo-wrapper">
                     <a href="/" className="topbar-logo-link">
                         <img
-                            src={mnLogo}
+                            src="/images/logo.png"
                             alt="michael navarro logo"
                             className="topbar-logo"
                         />
