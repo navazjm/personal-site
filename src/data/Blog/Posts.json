@@ -4,7 +4,7 @@
         "id": 1,
         "created_at": "03/29/2022",
         "description": "The first day as a Software Engineer can make one anxious, scared, intimidated, or all the above. Maybe it is your first job in Tech, or first job fresh out of university, this article will cover what my experience was during my first two months as a Software Engineer in a Fortune 500.",
-        "markdown_file": "FirstTwoMonthsSWE.md",
+        "markdown_file": "FirstTwoMonthsSWE",
         "topics": ["SWE"],
         "image": "https://michaelnavs-readme.s3.us-east-2.amazonaws.com/fis.png"
     }
