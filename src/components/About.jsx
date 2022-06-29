@@ -1,5 +1,4 @@
 import React from "react";
-import profilePic from "../images/me.jpg";
 import "../styles/About.css";
 
 export const About = () => {
@@ -18,7 +17,7 @@ export const About = () => {
                     passionate about.
                 </p>
                 <img
-                    src={profilePic}
+                    src="/images/me.jpg"
                     alt="michael navarro selfie"
                     className="about-page-profile-pic"
                 />
