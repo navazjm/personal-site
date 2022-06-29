@@ -28,12 +28,9 @@ export const Post = (props) => {
     useEffect(() => {
         const loadPostContent = async () => {
             const markdownFile = await import(
-                `../data/Blog/Posts/${fetchedPost.markdown_file}`
+                `../data/Blog/Posts/${fetchedPost.markdown_file}.md`
             );
             setPostContent(markdownFile.html);
-            // const markdownFileText = await fetch(markdownFile.default);
-            // const markdownFileContent = await markdownFileText.text();
-            // setPostContent(markdownFileContent.toString());
         };
 
         loadPostContent();
