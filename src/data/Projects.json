@@ -6,7 +6,7 @@
             "descriptions": [
                 "Replaces your default ctrl-r shell history search with an intelligent search engine that considers your working directory and the context of recently executed commands"
             ],
-            "github": "https://github.com/cantino/mcfly/commits?author=tehmj",
+            "github": "https://github.com/cantino/mcfly/commits?author=navazjm",
             "site": "",
             "images": [
                 "https://michaelnavs-readme.s3.us-east-2.amazonaws.com/mcfly.png"
@@ -19,7 +19,7 @@
             "descriptions": [
                 "Cross-browser extension to easily find links to source code repositories"
             ],
-            "github": "https://github.com/michaelnavs/repofinder",
+            "github": "https://github.com/navazjm/repofinder",
             "site": "",
             "images": [
                 "https://media.giphy.com/media/0s7eRoZNz9o4gsEji9/giphy.gif"
