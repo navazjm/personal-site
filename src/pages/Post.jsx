@@ -30,9 +30,10 @@ export const Post = (props) => {
             const markdownFile = await import(
                 `../data/Blog/Posts/${fetchedPost.markdown_file}`
             );
-            const markdownFileText = await fetch(markdownFile.default);
-            const markdownFileContent = await markdownFileText.text();
-            setPostContent(markdownFileContent.toString());
+            setPostContent(markdownFile.html);
+            // const markdownFileText = await fetch(markdownFile.default);
+            // const markdownFileContent = await markdownFileText.text();
+            // setPostContent(markdownFileContent.toString());
         };
 
         loadPostContent();
